@@ -1,0 +1,124 @@
+{
+  "dungeon": [
+    {
+      "desc": "You enter a dimly lit stone chamber. The air is damp, and the floor is covered with moss. There is a faint sound of distant footsteps.",
+      "item": {"name": "Iron Sword", "damage": 10, "idnum": 1},
+      "doors": [1],
+      "enemies": []
+    },
+    {
+      "desc": "A narrow passage opens into a small cave. The walls are adorned with crude paintings. A Goblin emerges from the shadows, its eyes glowing with malice.",
+      "item": null,
+      "doors": [2],
+      "enemies": [
+        {
+          "name": "Goblin",
+          "mindamage": 1,
+          "maxdamage": 3,
+          "hp": 20
+        }
+      ]
+    },
+    {
+      "desc": "You step into a larger chamber, and an Orc Warrior blocks your path, snarling. The room is filled with the stench of old blood.",
+      "item": {"name": "Health Potion", "damage": 0, "idnum": 3},
+      "doors": [3],
+      "enemies": [
+        {
+          "name": "Orc Warrior",
+          "mindamage": 2,
+          "maxdamage": 5,
+          "hp": 40
+        }
+      ]
+    },
+    {
+      "desc": "The stone floor of this room is cracked, and an Orc Berserker stands in the center, twirling a massive axe. The air is heavy with tension.",
+      "item": null,
+      "doors": [4],
+      "enemies": [
+        {
+          "name": "Orc Berserker",
+          "mindamage": 3,
+          "maxdamage": 6,
+          "hp": 60
+        }
+      ]
+    },
+    {
+      "desc": "The room is cold, the air tinged with the scent of death. A Dark Elf Assassin watches you from the shadows, her dagger glinting in the dim light.",
+      "item": {"name": "Flame Bow", "damage": 10, "idnum": 4},
+      "doors": [5],
+      "enemies": [
+        {
+          "name": "Dark Elf",
+          "mindamage": 4,
+          "maxdamage": 8,
+          "hp": 80
+        }
+      ]
+    },
+    {
+      "desc": "You step into the heart of the dungeon. The room is vast, and at the far end stands the Orc King, his armor glowing with dark energy. His eyes gleam with hatred as he roars a challenge.",
+      "item": null,
+      "doors": [],
+      "enemies": [
+        {
+          "name": "Orc King",
+          "mindamage": 5,
+          "maxdamage": 10,
+          "hp": 120
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "name": "Iron Sword",
+      "damage": 5,
+      "idnum": 1
+    },
+    {
+      "name": "Health Potion",
+      "damage": 0,
+      "idnum": 3
+    },
+    {
+      "name": "Flame Bow",
+      "damage": 10,
+      "idnum": 4
+    }
+  ],
+  "enemies": [
+    {
+      "name": "Goblin",
+      "mindamage": 1,
+      "maxdamage": 3,
+      "hp": 20
+    },
+    {
+      "name": "Orc Warrior",
+      "mindamage": 2,
+      "maxdamage": 5,
+      "hp": 40
+    },
+    {
+      "name": "Orc Berserker",
+      "mindamage": 3,
+      "maxdamage": 6,
+      "hp": 60
+    },
+    {
+      "name": "Dark Elf",
+      "mindamage": 4,
+      "maxdamage": 8,
+      "hp": 80
+    },
+    {
+      "name": "Orc King",
+      "mindamage": 5,
+      "maxdamage": 10,
+      "hp": 120
+    }
+  ]
+}
